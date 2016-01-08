@@ -55,7 +55,7 @@ Git分为 工作区（workspace）、暂存区（index）、本地仓库（local
 		7. 如果发现错误，可以撤回(reset)提交内容，执行2——6操作步骤。
   
 ### 3. Git常用命令  
-
+![Git工作命令](https://github.com/yufei-it/git-tools/raw/master/images/git_work_order.png)   
 > **基本操作**  
 
 	    $ git add .        添加当前项目的所有文件
