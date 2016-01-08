@@ -4,7 +4,7 @@
 Git是一个开源的分布式版本控制系统,它能够记录所有文件的所有版本，可以有效地追踪文件的变化。  
 
 Git分为 工作区（workspace）、暂存区（index）、本地仓库（local repository），当然还有远程仓库（remote repository）。远程仓库为我们保存一份代码拷贝，如github。而工作区、暂存区和本地仓库都在本地，这就是为什么没有网络我们也照样使用git提交（commit）代码更新，因为提交仅是提交到本地仓库，待有网络之后可以再推送（push）到远程仓库。  
-![Git工作流程](https://github.com/yufei-it/git-tools/tree/master/images/git_stage_workflow.png)  
+![Git工作流程](https://github.com/yufei-it/git-tools/raw/master/images/git_stage_workflow.png)  
 
 图中左侧为工作区，右侧为版本库(index+local _repository)。在版本库中标记为 "index" 的区域是暂存区（stage/index），标记为 "master" 的是 master 分支所代表的目录树。  
 图中的 objects 标识的区域为 Git 的对象库，实际位于 ".git/objects" 目录下，里面包含了创建的各种对象及内容。  
